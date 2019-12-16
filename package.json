@@ -1,0 +1,65 @@
+{
+  "name": "tutor-hunt",
+  "version": "0.0.1",
+  "description": "A Website to find tutor of specialized skillset",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/madan4991/tutorhunt.git"
+  },
+  "keywords": [
+    "Tutor",
+    "Student",
+    "parents",
+    "Skill",
+    "School",
+    "College"
+  ],
+  "author": "Madan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/madan4991/tutorhunt/issues"
+  },
+  "homepage": "https://gitlab.com/madan4991/tutorhunt#readme",
+  "dependencies": {
+    "antd": "^3.26.3",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.0.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.0.2",
+    "next": "^9.1.5",
+    "next-redux-wrapper": "^4.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.4",
+    "sequelize": "^5.21.3",
+    "swagger-stats": "^0.95.11",
+    "swagger-ui-express": "^4.1.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.0"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^0.19.0",
+    "next-images": "^1.2.0"
+  }
+}
